@@ -692,7 +692,7 @@ namespace K2Field.SmartObject.Services.PDFiTextSharp.Data
 
                 try 
                 {
-                    using (PdfReader doc = new PdfReader(pdfUri))
+                    using (PdfReader doc = new PdfReader(pdfuri))
                     {
                         // discover pdf doc
                         info = GetPDFDoucmentInformation(doc);
